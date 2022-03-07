@@ -1,0 +1,40 @@
+.Message-lz {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  border-radius: 4px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 100%;
+}
+
+.Message-lz.warning {
+  background-color: #f1c40f;
+  color: #946c00;
+}
+
+.Message-lz.info {
+  background-color: #3e8ed0;
+  color: #296fa8;
+}
+
+.Message-lz.error {
+  background-color: #e74c3c;
+  color: #cc0f35;
+}
+
+.Message-lz.success {
+  color: #257953;
+  background-color: #2ecc71;
+}
+
+.Message-lz .message-content {
+  background-color: #ffffffe5;
+  padding: 0.7rem 0.5rem;
+  width: calc(100% - 1.17rem);
+}
