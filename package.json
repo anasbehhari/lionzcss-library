@@ -4,6 +4,10 @@
   "description": "A light-weight and Great UI React.js component library",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anasbehhari/lionzcss.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
@@ -14,8 +18,16 @@
     "React",
     "library",
     "components",
-    "UI"
+    "UI",
+    "css",
+    "sass",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "framework",
+    "web"
   ],
+  "homepage": "https://lionzcss.vercel.app/",
   "author": "Anas Behhari",
   "license": "MIT",
   "devDependencies": {
