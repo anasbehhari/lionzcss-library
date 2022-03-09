@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://getbootstrap.com/">
-    <img src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap logo" width="200" height="165">
+  <a target="_blank" href="https://lionzcss.vercel.app">
+    <img src="https://weblionz.com/lionzcss/lionzcss.png" alt="lionzcss logo" width="150" height="150">
   </a>
 </p>
 
