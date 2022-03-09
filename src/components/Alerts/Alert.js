@@ -6,6 +6,7 @@ export const Alert = (props) => {
   const type = types.includes(props.type) ? props.type : "";
   const className = props.className != "Alert-lz" ? props.className : "";
   return (
+    
     <div className={`Alert-lz ${type} ${className} `}>
       <div className="icon">
         <svg
