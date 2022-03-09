@@ -39,21 +39,33 @@ Several quick start options are available:
 Read the [Getting started page](https://lionzcss.vercel.app/overview) for information on the framework contents, templates and examples, and more.
 
 ## How to use
-run the command 
+
+run the command
+
 ```bash
 npm install lionzcss
 ```
+
 Then import your components you can see [all components here](https://lionzcss.vercel.app/components)
+
 ```javascript
-import { Message,Alert } from "lionzcss";
+import { Message, Alert } from "lionzcss";
 function App() {
   return (
     <>
       <Message type="success">
-        <b> VERY IMPORTANT</b> : please make sure to double check that the form below has all the correct information
+        <b> VERY IMPORTANT</b> : please make sure to double check that the form
+        below has all the correct information
       </Message>
-      <Alert type="error" title="Please make sure to eliminate All special carachters" >
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure vitae ab illum fugit error, laborum iusto cumque, ratione voluptates quod maiores eos, harum non alias. Qui deleniti dolore itaque corrupti.</p>
+      <Alert
+        type="error"
+        title="Please make sure to eliminate All special carachters"
+      >
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure vitae ab
+          illum fugit error, laborum iusto cumque, ratione voluptates quod
+          maiores eos, harum non alias. Qui deleniti dolore itaque corrupti.
+        </p>
       </Alert>
     </>
   );
@@ -61,6 +73,7 @@ function App() {
 
 export default App;
 ```
+
 ## CDN Archicture
 
 - [Visit Our API](https://lionzcss.vercel.app)
@@ -91,8 +104,19 @@ lionzcss/
 │   ├── tables.js
 ```
 
-We provide compiled CSS and JS (`bootstrap.*`), as well as compiled and minified CSS and JS (`bootstrap.min.*`). [Source maps](https://developers.google.com/web/tools/chrome-devtools/javascript/source-maps) (`bootstrap.*.map`) are available for use with certain browsers' developer tools. Bundled JS files (`bootstrap.bundle.js` and minified `bootstrap.bundle.min.js`) include [Popper](https://popper.js.org/).
+We provide compiled CSS and JS , as well as compiled and minified CSS and JS + You can import or include your component styling only instead of importing one .css or .scss,.js file :
 
+```css
+@import "https://lionzcss-api.herokuapp.com/api/css/${component_name}";
+```
+
+```css
+@import "https://lionzcss-api.herokuapp.com/api/scss/${component_name}";
+```
+
+```html
+<script src="https://lionzcss-api.herokuapp.com/api/js/${component_name}"></script>
+```
 
 ## Creators
 
@@ -100,7 +124,6 @@ We provide compiled CSS and JS (`bootstrap.*`), as well as compiled and minified
 
 - <https://twitter.com/anasbehhari>
 - <https://github.com/anasbehhari>
-
 
 ## Sponsors
 
@@ -114,6 +137,9 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 <img src="https://uploads-ssl.webflow.com/603544ca5ab072022b0ccc86/6035482d019e4710d79c7e46_pondr-logo.svg" alt="runpondr Logo" width="192" height="42">
 </a>
 <br>
+
+
+
 ## Copyright and license
 
 Code and documentation copyright 2021-2022 the [lionzcss Authors](https://github.com/anasbehhari/lionzcss-libary/graphs/contributors). Code released under the [MIT License](https://github.com/anasbehhari/lionzcss-libary/blob/main/LICENSE).
