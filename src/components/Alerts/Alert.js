@@ -1,4 +1,6 @@
 import React from "react";
+import PropTypes from 'prop-types';
+
 import "./Alert.css";
 
 export const Alert = (props) => {
@@ -38,3 +40,7 @@ export const Alert = (props) => {
     </div>
   );
 };
+
+Alert.propTypes = {
+  title : PropTypes.string.isRequired
+}
