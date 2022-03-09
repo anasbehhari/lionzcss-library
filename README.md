@@ -109,13 +109,11 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 <a href="https://polygon.technology/"> 
 <img src="https://polygon.technology/_nuxt/img/polygon-logo.99647ca.svg" alt="polygon Logo" width="192" height="42">
 </a>
-<a href="https://www.inkoop.io/"> 
-<img src="https://www.inkoop.io/static/9ff68e686b08d1513261506f06696f1a/1bb4a/logo.avif" alt="inkoop Logo" width="192" height="42">
-</a>
+
 <a href="https://runpondr.com/"> 
 <img src="https://uploads-ssl.webflow.com/603544ca5ab072022b0ccc86/6035482d019e4710d79c7e46_pondr-logo.svg" alt="runpondr Logo" width="192" height="42">
 </a>
-
+<br>
 ## Copyright and license
 
 Code and documentation copyright 2021-2022 the [lionzcss Authors](https://github.com/anasbehhari/lionzcss-libary/graphs/contributors). Code released under the [MIT License](https://github.com/anasbehhari/lionzcss-libary/blob/main/LICENSE).
