@@ -37,10 +37,14 @@ Several quick start options are available:
 - Include with [CDN](https://lionzcss.vercel.app): CSS: `https://lionzcss-api.herokuapp.com/api/css/lionzcss` Sass: `https://lionzcss-api.herokuapp.com/api/scss/lionzcss`
 
 Read the [Getting started page](https://lionzcss.vercel.app/overview) for information on the framework contents, templates and examples, and more.
+## How to use 
 
-## What's included
+## CDN Archicture
+- [Visit Our API](https://lionzcss.vercel.app)
 
-Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
+By using our API you'll have access to diffrent type of files `.css` or `.scss` and `.js`.
+<br>
+here down below you'll see the Archicture which shows  how to use our API
 
 ```text
 lionzcss/
