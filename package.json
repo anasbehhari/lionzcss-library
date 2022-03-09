@@ -1,6 +1,6 @@
 {
   "name": "lionzcss",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "A light-weight and Great UI React.js component library",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
