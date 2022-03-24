@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { storiesOf } from "@storybook/react";
 
 import { Alert } from "../components/Alerts";
-
-const stories = storiesOf("Alerts", module);
-
+let anas   = () => {
+  console.log("hello");
+}
 stories.add("success", () => {
   return (
     <Alert type="success" title="It look like there was a problem">
@@ -15,9 +15,9 @@ stories.add("success", () => {
     </Alert>
   );
 });
-stories.add("warning", () => {
+stories.add("Error", () => {
   return (
-    <Alert type="warning" title="It look like there was a problem">
+    <Alert type="error" title="It look like there was a problem" AllowClose={}>
       <p>
         please make sure to double check that the form below has all the correct
         information

@@ -1,15 +1,15 @@
 import React from "react";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 import "./Alert.css";
 
 export const Alert = (props) => {
   const types = ["success", "error", "info", "warning"];
   const type = types.includes(props.type) ? props.type : "";
-  const className = props.className != "Alert-lz" ? props.className : "";
+  const id = props.id ? props.id : "";
+  const AllowClose = props.AllowClose;
   return (
-    
-    <div className={`Alert-lz ${type} ${className} `}>
+    <div className={`Alert-lz ${type} ${id} ${AllowClose}`}>
       <div className="icon">
         <svg
           version="1.1"
@@ -37,10 +37,21 @@ export const Alert = (props) => {
         <h3>{props.title}</h3>
         {props.children}
       </div>
+      {AllowClose ? (
+        <div className="close" onClick={AllowClose}>
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M13.41 12l4.3-4.29a1 1 0 1 0-1.42-1.42L12 10.59l-4.29-4.3a1 1 0 0 0-1.42 1.42l4.3 4.29-4.3 4.29a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l4.29-4.3 4.29 4.3a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42z" />
+          </svg>
+        </div>
+      ) : (
+        ""
+      )}
     </div>
   );
 };
 
 Alert.propTypes = {
-  title : PropTypes.string.isRequired
-}
+  title: PropTypes.string.isRequired,
+  type: PropTypes.string.isRequired,
+  AllowClose:PropTypes.func
+};

@@ -12,21 +12,25 @@
   max-width: 100%;
 }
 .Alert-lz.error {
+  fill: #e74c3c;
   color: #e74c3c;
   border-color: #e74c3c;
   background-color: #e74c3c;
 }
 .Alert-lz.success {
   color: #2ecc71;
+  fill: #2ecc71;
   border-color: #2ecc71;
   background-color: #2ecc71;
 }
 .Alert-lz.warning {
   color: #f1c40f;
+  fill: #f1c40f;
   border-color: #f1c40f;
   background-color: #f1c40f;
 }
 .Alert-lz.info {
+  fill: #409efb;
   color: #409efb;
   border-color: #409efb;
   background-color: #409efb;
@@ -57,4 +61,19 @@
 }
 .Alert-lz .Alert-content p {
   color: black;
+}
+
+.Alert-lz .close {
+  position: absolute;
+  right: 0;
+  display: flex;
+  top: 0;
+  margin: 8px;
+  fill: inherit;
+  cursor: pointer;
+}
+
+.Alert-lz .close svg  {
+  width: 20px;
+  fill: inherit;
 }
