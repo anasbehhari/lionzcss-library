@@ -20,11 +20,12 @@ A light-weight UI React.js component library
 
 ## Lionzcss
 
-The largest components library ready to use for Better Design !
-Build rich, interactive web applications quickly, with high quality design and results
+The largest components library ready to use for Better Design ! <br/> 
+You can Build rich, interactive web applications quickly, with high quality design and results. <br/>
+It provides a Collection of professionally designed, pre-built, fully responsive HTML snippets you can drop into your projects
+
 Join our growing community of developers using lionzcss
 
-Collection of professionally designed, pre-built, fully responsive HTML snippets you can drop into your projects
 
 ## Quick start
 
@@ -37,7 +38,6 @@ Several quick start options are available:
 - Include with [CDN](https://lionzcss.vercel.app): CSS: `https://lionzcss-api.herokuapp.com/api/css/lionzcss` Sass: `https://lionzcss-api.herokuapp.com/api/scss/lionzcss`
 
 Read the [Getting started page](https://lionzcss.vercel.app/overview) for information on the framework contents, templates and examples, and more.
-
 ## How to use
 
 run the command
@@ -73,6 +73,7 @@ function App() {
 
 export default App;
 ```
+<B> Jumb to the [Components page](https://lionzcss.vercel.app/components) to see all available component types and options.</b>
 
 ## CDN Archicture
 
