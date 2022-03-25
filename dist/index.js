@@ -96,7 +96,7 @@ const Button = props => {
 var css_248z = ".Message-lz{-webkit-box-pack:end;-ms-flex-pack:end;border-radius:4px;box-shadow:2px 2px 3px 0 #3333331a;display:-webkit-box;display:-ms-flexbox;display:flex;justify-content:flex-end;max-width:100%;position:relative;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}.Message-lz.warning{background-color:#f1c40f;color:#946c00}.Message-lz.info{background-color:#3e8ed0;color:#296fa8}.Message-lz.error{background-color:#e74c3c;color:#cc0f35}.Message-lz.success{background-color:#2ecc71;color:#257953}.Message-lz .message-content{background-color:#ffffffe5;padding:.7rem .5rem;width:calc(100% - 1.17rem)}";
 styleInject(css_248z);
 
-Message = props => {
+const Message = props => {
   const types = ["success", "error", "info", "warning"];
   const type = types.includes(props.type) ? props.type : "";
   const className = props.className != "Message-lz" ? props.className : "";
@@ -109,3 +109,4 @@ Message = props => {
 
 exports.Alert = Alert;
 exports.Button = Button;
+exports.Message = Message;
