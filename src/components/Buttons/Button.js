@@ -1,7 +1,7 @@
 import React from "react";
 import "./Button.css";
 
-export default Button = (props) => {
+export const Button = (props) => {
   const types = [
     "primary",
     "error",
