@@ -1,7 +1,7 @@
 import React from "react";
 import "./Message.css";
 
-export default Message = (props) => {
+export const Message = (props) => {
   const types = ["success","error","info","warning"];
   const type = types.includes(props.type) ? props.type : "";
   const className = props.className!="Message-lz" ? props.className : "";
